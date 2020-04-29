@@ -266,13 +266,13 @@ animation-delay: .8s;
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color:#3E60BA;
+ color:#3E60BA;
 }
 .p-color-bg,.theme-title h2:before,#about-us .single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
-  background: #3E60BA;
+background: #3E60BA;
 }
 .banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
 #service-section .single-service-content:hover,#project-section .project-menu ul li.active,
@@ -282,7 +282,8 @@ animation-delay: .8s;
 #contact-section .contact-address-content .left-side ul li .icon,#contact-section .send-message form button,
 .sidebar-tags ul li a:hover,.blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus,.blog-details-post-wrapper .post-comment input:focus {
-  border-color:#3E60BA;
+border-color:#3E60BA;
+
   border-style: solid;
 }
 /*** 
@@ -296,7 +297,7 @@ animation-delay: .8s;
   position: absolute;
   top:0;
   left:0;
-  right: 0;
+  right:0;
   z-index: 999;
   padding-top: 20px;
 }
@@ -306,15 +307,17 @@ animation-delay: .8s;
   font-weight: 700;
   background: transparent;
   padding: 9px 15px;
+   
 
 } 
 .theme-main-menu .navbar-nav>li:last-child>a {
   padding-right: 0;
-}   
+}
 .theme-main-menu.navbar {
   border:none;
-margin-right: -150px;
-
+  margin: 0;
+ 
+    
 }
 
 .theme-main-menu.navbar .nav>li ul.sub-menu {
@@ -437,7 +440,7 @@ margin-right: -150px;
 #about-us .single-about-content {
   text-align: center;
   margin-top: 55px;
- 
+  margin-bottom: 100px;
 }
 #about-us .icon {
   width: 130px;
@@ -461,10 +464,9 @@ margin-right: -150px;
 }
 #about-us .single-about-content a.more:hover,
 #about-us .single-about-content:hover .icon {
-  color:#292929;
+  color:#fff;
 }
 /*** 
-
 
 ====================================================================
   Service section
@@ -673,7 +675,7 @@ margin-right: -150px;
 
  ***/
 .page-middle-banner {
-  background: url(https://scontent.fopo2-1.fna.fbcdn.net/v/t1.0-9/87361262_3041423705921679_8469826544531931136_o.jpg?_nc_cat=101&_nc_sid=a26aad&_nc_ohc=88I1J8tP0eEAX8dWfn9&_nc_ht=scontent.fopo2-1.fna&oh=ea5f72dd3ee0fcd939b483601da9aef0&oe=5ECB139E) no-repeat center;
+  background: url(../images/home/1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   margin-top: 70px;
@@ -685,7 +687,7 @@ margin-right: -150px;
 }
 .page-middle-banner .opacity h3 {
   color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 .page-middle-banner .opacity a {
   width: 200px;
@@ -693,7 +695,7 @@ margin-right: -150px;
   color:#fff;
   text-transform: uppercase;
   font-weight: 700;
-    margin-top:25px;
+  border-width:1px;
 }
 /*** 
 
@@ -823,8 +825,8 @@ margin-right: -150px;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a {
-  color: #677fb5;
-  border-color:#677fb5;
+  color: #d8545d;
+  border-color:#d8545d;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a {
@@ -841,7 +843,7 @@ margin-right: -150px;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a:hover {
-  background: #677fb5;
+  background: #d8545d;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a:hover {
@@ -893,7 +895,7 @@ margin-right: -150px;
 #skill-section .codeconSkillbar .codeconSkillArea {
   font-weight: 700;
   font-size: 15px;
-  color:;
+  color:#fff;
   margin-bottom: 15px;
   float: none;
   margin: 0;
@@ -959,10 +961,7 @@ margin-right: -150px;
   border: 1px solid#9d9f9f;
   margin: 0 5px;
 }
-
 /*** 
-
-
 
 ====================================================================
   Pricing Section
@@ -1076,8 +1075,7 @@ margin-right: -150px;
   line-height: 26px;
   text-transform: none;
   color:#292929;
-  margin: 20px 0 12px 0;
-      font-size: 24px;
+  margin: 40px 0 15px 0;
 }
 #blog-section .single-news-item .post>a {
   color: #292929;
@@ -1087,9 +1085,6 @@ margin-right: -150px;
 #blog-section .single-news-item .post p a {
   color: #292929;
 }
-
-
-
 
 
 
@@ -1181,10 +1176,9 @@ font-size: 24px;
 
  ***/
 #partner-section {
-  margin: 0px 0 0 0;
+  margin: 100px 0 0 0;
   background: #f9f9f9;
   padding: 50px 0;
-  
 }
 #partner-section .item {
   border:1px solid #dfdfdf;
@@ -1192,12 +1186,7 @@ font-size: 24px;
   padding-top: 22px;
 }
 #partner-section .item img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 35%;
- 
-
+  margin: 0 auto;
 }
 /*** 
 
@@ -1206,11 +1195,6 @@ font-size: 24px;
 ====================================================================
 
  ***/
-#contact-section {
-    margin-top: 70px;
-    margin-bottom: 50px;
-}
-
 #contact-section .contact-address-content h2 {
   margin: 95px 0 35px 0;
 }
@@ -1243,7 +1227,7 @@ font-size: 24px;
 }
 #contact-section .contact-address-content #map {
   width: 100%;
-  height: 460px;
+  height: 500px;
 }
 #contact-section .send-message {
   padding: 0 15px;
@@ -1327,7 +1311,7 @@ font-size: 24px;
   color: #57D1C9;
 }
 #error {
-  color: #677fb5;
+  color: #C9182B;
 }
 #error button,
 #success button {
@@ -1443,26 +1427,22 @@ footer p {
 
 
 
-
-
-
-
-h1 {
+#social .h1 {
     text-align: center;
      margin: 40px 0 0px 0;
       font-size: 38px;
 }
-div.social-btn {
+#social .social-btn {
     display: block;
     width: 665px;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
 }
-div.social-btn a {
+#social .social-btn a {
     text-decoration: none;
 }
-div.social-btn div {
+#social .social-btn div {
     width: 130px;
     display: inline-block;
     float: left;
@@ -1481,11 +1461,11 @@ div.social-btn div {
     transition: all 0.3s ease-out;
     margin-bottom: 10px;
 }
-div.social-btn a:last-child div {
+#social .social-btn a:last-child div {
     margin-right: 0;
 }
-div.social-btn div:hover, div.social-btn div:active {
-    height: 135px;
+#social .social-btn div:hover, div.social-btn div:active {
+
     padding-top: 15px;
 }
 i {
@@ -1494,7 +1474,7 @@ i {
     -o-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
 }
-div.face span, div.twi span, div.in span, div.pin span, div.git span{
+#social .face span, div.twi span, div.in span, div.pin span, div.git span{
     position: absolute;
     left: 0;
     font-family: 'Raleway', sans-serif;
@@ -1509,13 +1489,13 @@ div.face span, div.twi span, div.in span, div.pin span, div.git span{
     line-height: 110px;
     font-size: 20px;
 }
-div.social-btn div:hover i  {
+#social .social-btn div:hover i  {
     opacity: 0;
 }
-div.social-btn div:hover span {
+#social .social-btn div:hover span {
     opacity: 1;
 }
-div.face {
+#social .face {
     background: #3A5795;
     -moz-box-shadow: 0px 4px 0px #1e469d;
     -webkit-box-shadow: 0px 4px 0px #1e469d;
@@ -1523,37 +1503,40 @@ div.face {
     position: relative;
 }
 
-div.twi {
+#social .twi {
     background: #5EA9DD;
     -moz-box-shadow: 0px 4px 0px #186ba4;
     -webkit-box-shadow: 0px 4px 0px #186ba4;
     box-shadow: 0px 4px 0px #2b95df;
     position: relative;
 }
-div.in {
+#social .in {
     background: #0177B5;
     -moz-box-shadow: 0px 4px 0px #035e8e;
     -webkit-box-shadow: 0px 4px 0px #035e8e;
     box-shadow: 0px 4px 0px #035e8e;
     position: relative;
 }
-div.pin {
+#social .pin {
     background: #D73532;
     -webkit-box-shadow: 0px 4px 0px #b51c19;
     -moz-box-shadow: 0px 4px 0px #b51c19;
     box-shadow: 0px 4px 0px #b51c19;
     position: relative;
 }
-div.git {
+#social .git {
     background: #BBBBBB;
     -webkit-box-shadow: 0px 4px 0px #b51c19;
     -moz-box-shadow: 0px 4px 0px #b51c19;
     box-shadow: 0px 4px 0px #9a9a9a;
     position: relative;
 }
-div.git i {
+#social .git i {
     text-shadow: none;
 }
+
+
+
 
 
 
@@ -1706,11 +1689,11 @@ div.git i {
 
  ***/
 .blog-details-post-wrapper .post-heading h4 {
- 
+  margin: 53px 0 13px 0;
   text-transform: none;
 }
 .blog-details-post-wrapper .post-heading {
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #dfdfdf;
   margin-bottom: 25px;
 }
