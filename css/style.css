@@ -1430,7 +1430,7 @@ footer p {
 #social .h1 {
     text-align: center;
      margin: 40px 0 0px 0;
-      font-size: 38px;
+      font-size: 34px;
 }
 #social .social-btn {
     display: block;
@@ -1438,6 +1438,10 @@ footer p {
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
+      width:100%;
+ 
+ 
+    
 }
 #social .social-btn a {
     text-decoration: none;
