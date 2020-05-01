@@ -30,7 +30,26 @@
 		
         
  
-   
+        <style>
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+            
+            
+                 iframe, object, embed {
+    max-width: 100%;
+}
+        </style>
         
 	</head>
 
@@ -110,11 +129,26 @@
 			-->
 
             
-			<section id="about-us" style="margin-top: -50px">
-				<div class="container">
-				
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-6">
+			<section id="about-us" style="margin-bottom:-175px">
+                    <div class="single-about-content">
+             <div class="container">
+                
+             <h6>Onde estamos?</h6><hr>
+              <p>Edifício AAUM - Lugar da Veiga</p>
+              <p>4810-001 Azurém</p>
+                 <p>Guimarães</p><br>
+                        <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d747.5704982849246!2d-8.287780170767512!3d41.45479879870364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24eff32bc3ba53%3A0x253453bd2263a06d!2sAssocia%C3%A7%C3%A3o%20Acad%C3%A9mica%20da%20Universidade%20do%20Minho!5e0!3m2!1spt-PT!2spt!4v1588341234508!5m2!1spt-PT!2spt" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <hr>
+					<div class="row" style="margin-top: -50px">
+                     <h6>A quem ligar!</h6>
+						<div class="column">
+                  
 							<div class="single-about-content">
 								<h6>Cargo</h6>
                                 <br>
@@ -124,7 +158,7 @@
 							</div> <!-- /.single-about-content -->
 						</div> <!-- /.col -->
 
-						<div class="col-lg-3 col-md-3 col-sm-6">
+						<div class="column">
 							<div class="single-about-content">
 								<h6>Cargo</h6>
                                 <br>
@@ -133,8 +167,7 @@
                                 <a href="#"> +351 917 296 547</a>
 							</div> <!-- /.single-about-content -->
 						</div> <!-- /.col -->
-
-						<div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="column">
 							<div class="single-about-content">
 								<h6>Cargo</h6>
                                 <br>
@@ -142,58 +175,16 @@
 								   <i class="fa fa-phone" aria-hidden="true"></i>
                                 <a href="#"> +351 917 296 547</a>
 							</div> <!-- /.single-about-content -->
-						</div> <!-- /.col -->
+						</div>    
 
-						<div class="col-lg-3 col-md-3 col-sm-6">
-							<div class="single-about-content">
-								<h6>Cargo</h6>
-                                <br>
-                                <p>Nome</p>
-								   <i class="fa fa-phone" aria-hidden="true"></i>
-                                <a href="#"> +351 917 296 547</a>
-							</div> <!-- /.single-about-content -->
+					 <!-- /.single-about-content -->
 						</div> <!-- /.col -->
 					</div> <!-- /.row -->
+                </div>
 				<!-- /.container -->
 			<!-- /#about-us -->
 
-            
-            
-            <div class="info" style="margin-top: 75px; margin-left: 2%">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-              
-          
-          
-         <div class="local" style="text-align-last:center">
-              <h6>Localização</h6>
-              <hr>
-             
-              <p>Edifício AAUM - Lugar da Veiga</p>
-
-              <p>4810-001 Azurém</p>
-             <p>Guimarães</p>
-              
-                    </div>
-             
-             
-            </div>
-            
-             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="local" style="text-align-last:center">
-            
-                    <h6>Email</h6>
-                   <hr>
-                        
-                           <i class="fa fa-envelope" aria-hidden="true"></i>
-              <a href="#"> tunaafonsina@gmail.com</a>
-                 </div>
-          
-           
-              
-            </div>
-                </div>
-                    </div>
-               
+        
             </section>
         
          
@@ -214,7 +205,13 @@
 						<li><a href="https://www.instagram.com/tunaafonsina/?hl=pt" class="tran3s round-border"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         		<li><a href="https://www.youtube.com/user/tunaafonsina" class="tran3s round-border"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 					</ul>
-					<p>Copyright @2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+									
+    <p class="text-center">Copyright &copy; All rights reserved | Afonsina
+        <script>
+            var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)
+        </script>
+    </p>
 				</div>
 			</footer>
 
